@@ -15,7 +15,7 @@ class occurences {
         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 
         char[] arr = str.toCharArray();
-
+        
         for (char i : arr) {
 
             if (map.containsKey(i)) {
